@@ -214,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="1003.5" y="367.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Academical View Controller-->
         <scene sceneID="eXf-e4-ixv">
             <objects>
-                <viewController restorationIdentifier="academicalViewController" storyboardIdentifier="academicalViewController" id="H6r-e4-FOE" sceneMemberID="viewController">
+                <viewController restorationIdentifier="academicalViewController" storyboardIdentifier="academicalViewController" id="H6r-e4-FOE" customClass="AcademicalViewController" customModule="WWDC" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Lep-Lu-8mE"/>
                         <viewControllerLayoutGuide type="bottom" id="etq-fe-vQh"/>
@@ -273,6 +273,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tapMenu:" destination="H6r-e4-FOE" eventType="touchUpInside" id="IWa-OL-X3q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -297,10 +300,10 @@
             </objects>
             <point key="canvasLocation" x="1723.5" y="372"/>
         </scene>
-        <!--View Controller-->
+        <!--Interest View Controller-->
         <scene sceneID="gKM-1a-3iW">
             <objects>
-                <viewController storyboardIdentifier="interestViewController" id="RfZ-uj-JGb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="interestViewController" id="RfZ-uj-JGb" customClass="InterestViewController" customModule="WWDC" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BuU-HI-mLC"/>
                         <viewControllerLayoutGuide type="bottom" id="Pvs-6Y-uHH"/>
@@ -356,6 +359,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tapMenu:" destination="RfZ-uj-JGb" eventType="touchUpInside" id="QhU-b7-MlQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -380,10 +386,10 @@
             </objects>
             <point key="canvasLocation" x="1723.5" y="1746"/>
         </scene>
-        <!--View Controller-->
+        <!--Skills View Controller-->
         <scene sceneID="ldK-AG-n6F">
             <objects>
-                <viewController storyboardIdentifier="skillsViewController" id="4fQ-fI-zGD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="skillsViewController" id="4fQ-fI-zGD" customClass="SkillsViewController" customModule="WWDC" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7NJ-yW-bOy"/>
                         <viewControllerLayoutGuide type="bottom" id="Goa-dB-c0W"/>
@@ -439,6 +445,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tapMenu:" destination="4fQ-fI-zGD" eventType="touchUpInside" id="q7k-Ja-nia"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -463,10 +472,10 @@
             </objects>
             <point key="canvasLocation" x="1723.5" y="1102.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Professional View Controller-->
         <scene sceneID="lAo-K6-NE9">
             <objects>
-                <viewController storyboardIdentifier="professionalViewController" id="0oC-KN-cy0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="professionalViewController" id="0oC-KN-cy0" customClass="ProfessionalViewController" customModule="WWDC" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5bt-6K-rdg"/>
                         <viewControllerLayoutGuide type="bottom" id="px6-wA-bri"/>
@@ -522,6 +531,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tapMenu:" destination="0oC-KN-cy0" eventType="touchUpInside" id="B8Q-X5-o9u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

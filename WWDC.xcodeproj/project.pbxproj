@@ -18,6 +18,10 @@
 		53E036201AE677EF00688140 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0361F1AE677EF00688140 /* RightMenuViewController.swift */; };
 		53E036221AE67BC900688140 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036211AE67BC900688140 /* PerfilViewController.swift */; };
 		53E036241AE67DF100688140 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036231AE67DF100688140 /* CustomNavigationBar.swift */; };
+		53E036271AE6AC0500688140 /* AcademicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036261AE6AC0500688140 /* AcademicalViewController.swift */; };
+		53E036291AE6AC3D00688140 /* ProfessionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036281AE6AC3D00688140 /* ProfessionalViewController.swift */; };
+		53E0362C1AE6AC6100688140 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0362A1AE6AC6100688140 /* SkillsViewController.swift */; };
+		53E0362F1AE6AC9100688140 /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0362E1AE6AC9100688140 /* InterestViewController.swift */; };
 		739AA8864F4BECF994346793 /* libPods-WWDC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,10 @@
 		53E0361F1AE677EF00688140 /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
 		53E036211AE67BC900688140 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		53E036231AE67DF100688140 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		53E036261AE6AC0500688140 /* AcademicalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicalViewController.swift; sourceTree = "<group>"; };
+		53E036281AE6AC3D00688140 /* ProfessionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessionalViewController.swift; sourceTree = "<group>"; };
+		53E0362A1AE6AC6100688140 /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		53E0362E1AE6AC9100688140 /* InterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
 		8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWDC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,6 +148,10 @@
 				53E0361D1AE677E100688140 /* LeftMenuViewController.swift */,
 				53E0361F1AE677EF00688140 /* RightMenuViewController.swift */,
 				53E036211AE67BC900688140 /* PerfilViewController.swift */,
+				53E036261AE6AC0500688140 /* AcademicalViewController.swift */,
+				53E036281AE6AC3D00688140 /* ProfessionalViewController.swift */,
+				53E0362A1AE6AC6100688140 /* SkillsViewController.swift */,
+				53E0362E1AE6AC9100688140 /* InterestViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -308,8 +320,12 @@
 				53291CA21AE5EE4400CB724F /* ViewController.swift in Sources */,
 				53291CA01AE5EE4400CB724F /* AppDelegate.swift in Sources */,
 				53E0361E1AE677E100688140 /* LeftMenuViewController.swift in Sources */,
+				53E036271AE6AC0500688140 /* AcademicalViewController.swift in Sources */,
 				53291CCA1AE5FDD600CB724F /* RootViewController.swift in Sources */,
+				53E0362F1AE6AC9100688140 /* InterestViewController.swift in Sources */,
+				53E036291AE6AC3D00688140 /* ProfessionalViewController.swift in Sources */,
 				53E036201AE677EF00688140 /* RightMenuViewController.swift in Sources */,
+				53E0362C1AE6AC6100688140 /* SkillsViewController.swift in Sources */,
 				53E036241AE67DF100688140 /* CustomNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
