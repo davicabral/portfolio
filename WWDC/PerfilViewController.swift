@@ -11,6 +11,7 @@ import UIKit
 class PerfilViewController: ViewController {
 
     @IBOutlet weak var menuButton: UIButton!
+    @IBOutlet weak var profileImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,10 @@ class PerfilViewController: ViewController {
         self.navigationController?.navigationBar.translucent = true
         self.navigationController?.navigationBarHidden = true
 
+        profileImage.layer.masksToBounds = true
+        profileImage.layer.borderWidth = 1
+        profileImage.layer.borderColor = UIColor.blackColor().CGColor
+        profileImage.layer.cornerRadius = 64
     }
     
     @IBAction func tapMenu(sender: AnyObject) {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
@@ -13,14 +13,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-787.5" y="372"/>
+            <point key="canvasLocation" x="-420" y="352.15999999999997"/>
         </scene>
         <!--Left Menu View Controller-->
         <scene sceneID="zpd-k7-Q4U">
@@ -31,98 +31,67 @@
                         <viewControllerLayoutGuide type="bottom" id="UgY-ve-ZL0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OsQ-Kd-VfC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYZ-Ro-CnZ">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.51993154104650097" green="1" blue="0.56221428273991014" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Perfil">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="134" width="200" height="100"/>
-                                </variation>
-                                <connections>
-                                    <action selector="tapProfile:" destination="aVg-jO-XmB" eventType="touchUpInside" id="g5H-yu-QIA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ni1-of-8Ks">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.51993154104650097" green="1" blue="0.56221428273991014" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1V-Ty-aXN">
+                                <rect key="frame" x="16" y="154" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.51993154100000005" green="1" blue="0.56221428269999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Atividades academicas">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="242" width="200" height="100"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapAcademical:" destination="aVg-jO-XmB" eventType="touchUpInside" id="FQe-rk-QGm"/>
+                                    <action selector="tapAcademical:" destination="aVg-jO-XmB" eventType="touchUpInside" id="JGr-uR-fes"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0D-z5-X2d">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCw-MB-a63">
+                                <rect key="frame" x="16" y="212" width="200" height="50"/>
                                 <color key="backgroundColor" red="0.51993154100000005" green="1" blue="0.56221428269999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Atividades profissionais">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="350" width="200" height="100"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapProfessional:" destination="aVg-jO-XmB" eventType="touchUpInside" id="SOY-RF-RJO"/>
+                                    <action selector="tapProfessional:" destination="aVg-jO-XmB" eventType="touchUpInside" id="UVo-b8-dTs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4b-1O-0Ku">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doI-HC-A7W">
+                                <rect key="frame" x="16" y="270" width="200" height="50"/>
                                 <color key="backgroundColor" red="0.51993154100000005" green="1" blue="0.56221428269999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Habilidades técnicas">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="458" width="200" height="100"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapSkills:" destination="aVg-jO-XmB" eventType="touchUpInside" id="3tl-SI-VHa"/>
+                                    <action selector="tapSkills:" destination="aVg-jO-XmB" eventType="touchUpInside" id="QX1-Uq-YpU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urB-l8-F87">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYI-kf-eli">
+                                <rect key="frame" x="16" y="328" width="200" height="50"/>
                                 <color key="backgroundColor" red="0.51993154100000005" green="1" blue="0.56221428269999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Interesses">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="566" width="200" height="100"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapInterests:" destination="aVg-jO-XmB" eventType="touchUpInside" id="pem-6i-gu1"/>
+                                    <action selector="tapInterests:" destination="aVg-jO-XmB" eventType="touchUpInside" id="evd-La-0CW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yF8-Jx-LQD">
+                                <rect key="frame" x="80" y="376" width="178" height="184"/>
+                                <color key="backgroundColor" red="0.51993154100000005" green="1" blue="0.56221428269999996" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <state key="normal" backgroundImage="Perfil-01-01">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapProfile:" destination="aVg-jO-XmB" eventType="touchUpInside" id="1oo-ih-FYv"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.41298777259873853" green="0.88119496815880227" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="yYZ-Ro-CnZ"/>
-                                <exclude reference="ni1-of-8Ks"/>
-                                <exclude reference="Z0D-z5-X2d"/>
-                                <exclude reference="k4b-1O-0Ku"/>
-                                <exclude reference="urB-l8-F87"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="yYZ-Ro-CnZ"/>
-                                <include reference="ni1-of-8Ks"/>
-                                <include reference="Z0D-z5-X2d"/>
-                                <include reference="k4b-1O-0Ku"/>
-                                <include reference="urB-l8-F87"/>
-                            </mask>
-                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1UE-Hl-uXU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-793.5" y="1071"/>
+            <point key="canvasLocation" x="-423.19999999999999" y="1013.88"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oS7-5K-Dg8">
@@ -133,13 +102,14 @@
                         <viewControllerLayoutGuide type="bottom" id="GpV-PH-8ni"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="CfE-Er-POh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7K-hb-YAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-790.5" y="1746"/>
+            <point key="canvasLocation" x="-421.59999999999997" y="1652.8799999999999"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6i3-y6-SKM">
@@ -159,7 +129,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAF-c3-3aO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="153" y="367.5"/>
+            <point key="canvasLocation" x="81.599999999999994" y="347.89999999999998"/>
         </scene>
         <!--Perfil View Controller-->
         <scene sceneID="mmk-qi-VH1">
@@ -170,49 +140,32 @@
                         <viewControllerLayoutGuide type="bottom" id="aPr-dx-lOt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Fhw-sa-xT9">
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZG-U3-yMK">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="176" y="389" width="49" height="21"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb0-fh-otz">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xb1-8q-Xo6">
+                                <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 <state key="normal" image="hamburguerIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="20" width="32" height="32"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapMenu:" destination="UnX-vE-s3l" eventType="touchUpInside" id="5VH-ra-j6o"/>
+                                    <action selector="tapMenu:" destination="UnX-vE-s3l" eventType="touchUpInside" id="MRu-VT-9L1"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Perfil" translatesAutoresizingMaskIntoConstraints="NO" id="Jmn-Gx-OPp">
+                                <rect key="frame" x="32" y="91" width="128" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.34155222405788155" blue="0.39881558490414015" alpha="1" colorSpace="calibratedRGB"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="SZG-U3-yMK"/>
-                                <exclude reference="kb0-fh-otz"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="SZG-U3-yMK"/>
-                                <include reference="kb0-fh-otz"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="I37-yN-w9I"/>
+                    <connections>
+                        <outlet property="profileImage" destination="Jmn-Gx-OPp" id="UEQ-PC-eZa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WHs-kJ-HTP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1003.5" y="367.5"/>
+            <point key="canvasLocation" x="535.20000000000005" y="347.89999999999998"/>
         </scene>
         <!--Academical View Controller-->
         <scene sceneID="eXf-e4-ixv">
@@ -223,74 +176,20 @@
                         <viewControllerLayoutGuide type="bottom" id="etq-fe-vQh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lfC-QO-7lh">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0jn-nG-eD2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiR-XH-rYf">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.50489240466054808" blue="0.41933834004470383" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="112" y="264" width="177" height="124"/>
-                                        </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLX-Sv-HRy">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.50489240466054808" blue="0.41933834004470383" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="112" y="38" width="177" height="124"/>
-                                        </variation>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.33519426579608969" blue="0.85838859482515983" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="XiR-XH-rYf"/>
-                                        <exclude reference="BLX-Sv-HRy"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="142" width="400" height="420"/>
-                                    <mask key="subviews">
-                                        <include reference="XiR-XH-rYf"/>
-                                        <include reference="BLX-Sv-HRy"/>
-                                    </mask>
-                                </variation>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uY-FD-V6v">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXM-D5-OXg">
+                                <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 <state key="normal" image="hamburguerIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="20" width="32" height="32"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapMenu:" destination="H6r-e4-FOE" eventType="touchUpInside" id="IWa-OL-X3q"/>
+                                    <action selector="tapMenu:" destination="H6r-e4-FOE" eventType="touchUpInside" id="qDG-oL-nRE"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="0jn-nG-eD2"/>
-                                <exclude reference="8uY-FD-V6v"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="0jn-nG-eD2"/>
-                                <include reference="8uY-FD-V6v"/>
-                            </mask>
-                        </variation>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <toolbarItems/>
@@ -298,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jSM-RF-HMl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1723.5" y="372"/>
+            <point key="canvasLocation" x="919.19999999999993" y="352.15999999999997"/>
         </scene>
         <!--Interest View Controller-->
         <scene sceneID="gKM-1a-3iW">
@@ -309,74 +208,20 @@
                         <viewControllerLayoutGuide type="bottom" id="Pvs-6Y-uHH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="e1A-7O-LIJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxg-zG-cjP">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u21-lU-tND">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.50489240469999996" blue="0.41933833999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="112" y="264" width="177" height="124"/>
-                                        </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKR-gp-Spq">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.50489240469999996" blue="0.41933833999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="112" y="38" width="177" height="124"/>
-                                        </variation>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.73625364950000005" blue="0.58188893340000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="u21-lU-tND"/>
-                                        <exclude reference="aKR-gp-Spq"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="142" width="400" height="420"/>
-                                    <mask key="subviews">
-                                        <include reference="u21-lU-tND"/>
-                                        <include reference="aKR-gp-Spq"/>
-                                    </mask>
-                                </variation>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDu-b0-I9T">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02Q-Xf-4T9">
+                                <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 <state key="normal" image="hamburguerIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="20" width="32" height="32"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapMenu:" destination="RfZ-uj-JGb" eventType="touchUpInside" id="QhU-b7-MlQ"/>
+                                    <action selector="tapMenu:" destination="RfZ-uj-JGb" eventType="touchUpInside" id="AOw-6K-Vck"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="uxg-zG-cjP"/>
-                                <exclude reference="tDu-b0-I9T"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="uxg-zG-cjP"/>
-                                <include reference="tDu-b0-I9T"/>
-                            </mask>
-                        </variation>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <toolbarItems/>
@@ -384,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFW-NR-GQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1723.5" y="1746"/>
+            <point key="canvasLocation" x="919.19999999999993" y="1652.8799999999999"/>
         </scene>
         <!--Skills View Controller-->
         <scene sceneID="ldK-AG-n6F">
@@ -395,74 +240,20 @@
                         <viewControllerLayoutGuide type="bottom" id="Goa-dB-c0W"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8iO-mX-Ze2">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kew-2X-i1f">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rO-Ud-m9P">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.50489240469999996" blue="0.41933833999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="112" y="264" width="177" height="124"/>
-                                        </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kym-bg-W5f">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.50489240469999996" blue="0.41933833999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="112" y="38" width="177" height="124"/>
-                                        </variation>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.28473485562769463" green="1" blue="0.2841707417783137" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="1rO-Ud-m9P"/>
-                                        <exclude reference="Kym-bg-W5f"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="142" width="400" height="420"/>
-                                    <mask key="subviews">
-                                        <include reference="1rO-Ud-m9P"/>
-                                        <include reference="Kym-bg-W5f"/>
-                                    </mask>
-                                </variation>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4p-xS-WKS">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kew-8s-B8c">
+                                <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 <state key="normal" image="hamburguerIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="20" width="32" height="32"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapMenu:" destination="4fQ-fI-zGD" eventType="touchUpInside" id="q7k-Ja-nia"/>
+                                    <action selector="tapMenu:" destination="4fQ-fI-zGD" eventType="touchUpInside" id="G2Q-PM-hP2"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="kew-2X-i1f"/>
-                                <exclude reference="l4p-xS-WKS"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="kew-2X-i1f"/>
-                                <include reference="l4p-xS-WKS"/>
-                            </mask>
-                        </variation>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <toolbarItems/>
@@ -470,7 +261,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBX-Nn-kxU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1723.5" y="1102.5"/>
+            <point key="canvasLocation" x="919.19999999999993" y="1043.7"/>
         </scene>
         <!--Professional View Controller-->
         <scene sceneID="lAo-K6-NE9">
@@ -481,74 +272,20 @@
                         <viewControllerLayoutGuide type="bottom" id="px6-wA-bri"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3NA-mT-WWI">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rz6-as-v5d">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGw-QO-Wcc">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.50489240469999996" blue="0.41933833999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="112" y="264" width="177" height="124"/>
-                                        </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIE-Fo-ZrH">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.50489240469999996" blue="0.41933833999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="112" y="38" width="177" height="124"/>
-                                        </variation>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.60400528578797941" green="0.90116935505238072" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="fGw-QO-Wcc"/>
-                                        <exclude reference="VIE-Fo-ZrH"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="142" width="400" height="420"/>
-                                    <mask key="subviews">
-                                        <include reference="fGw-QO-Wcc"/>
-                                        <include reference="VIE-Fo-ZrH"/>
-                                    </mask>
-                                </variation>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtZ-bT-eV0">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpk-M7-Via">
+                                <rect key="frame" x="0.0" y="20" width="32" height="32"/>
                                 <state key="normal" image="hamburguerIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="20" width="32" height="32"/>
-                                </variation>
                                 <connections>
-                                    <action selector="tapMenu:" destination="0oC-KN-cy0" eventType="touchUpInside" id="B8Q-X5-o9u"/>
+                                    <action selector="tapMenu:" destination="0oC-KN-cy0" eventType="touchUpInside" id="DwW-mT-htc"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="rz6-as-v5d"/>
-                                <exclude reference="DtZ-bT-eV0"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="rz6-as-v5d"/>
-                                <include reference="DtZ-bT-eV0"/>
-                            </mask>
-                        </variation>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <toolbarItems/>
@@ -556,10 +293,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vJE-Ne-kCX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991.5" y="1102.5"/>
+            <point key="canvasLocation" x="528.79999999999995" y="1043.7"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Perfil" width="178" height="184"/>
+        <image name="Perfil-01-01" width="106" height="106"/>
         <image name="hamburguerIcon" width="42" height="42"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
