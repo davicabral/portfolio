@@ -13,6 +13,12 @@
 		53291CA71AE5EE4400CB724F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53291CA61AE5EE4400CB724F /* Images.xcassets */; };
 		53291CAA1AE5EE4400CB724F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53291CA81AE5EE4400CB724F /* LaunchScreen.xib */; };
 		53291CB61AE5EE4400CB724F /* WWDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53291CB51AE5EE4400CB724F /* WWDCTests.swift */; };
+		53291CCA1AE5FDD600CB724F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53291CC91AE5FDD600CB724F /* RootViewController.swift */; };
+		53E0361E1AE677E100688140 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0361D1AE677E100688140 /* LeftMenuViewController.swift */; };
+		53E036201AE677EF00688140 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0361F1AE677EF00688140 /* RightMenuViewController.swift */; };
+		53E036221AE67BC900688140 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036211AE67BC900688140 /* PerfilViewController.swift */; };
+		53E036241AE67DF100688140 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036231AE67DF100688140 /* CustomNavigationBar.swift */; };
+		739AA8864F4BECF994346793 /* libPods-WWDC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		131EE1F8AE8882C3B916EFDC /* Pods-WWDC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.release.xcconfig"; sourceTree = "<group>"; };
+		30BD62665FB13B107E991C55 /* Pods-WWDC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.debug.xcconfig"; sourceTree = "<group>"; };
 		53291C9A1AE5EE4400CB724F /* WWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53291C9E1AE5EE4400CB724F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53291C9F1AE5EE4400CB724F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,13 @@
 		53291CAF1AE5EE4400CB724F /* WWDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53291CB41AE5EE4400CB724F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53291CB51AE5EE4400CB724F /* WWDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCTests.swift; sourceTree = "<group>"; };
+		53291CBF1AE5FC9100CB724F /* WWDC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWDC-Bridging-Header.h"; sourceTree = "<group>"; };
+		53291CC91AE5FDD600CB724F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		53E0361D1AE677E100688140 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		53E0361F1AE677EF00688140 /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
+		53E036211AE67BC900688140 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		53E036231AE67DF100688140 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWDC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739AA8864F4BECF994346793 /* libPods-WWDC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,8 @@
 				53291C9C1AE5EE4400CB724F /* WWDC */,
 				53291CB21AE5EE4400CB724F /* WWDCTests */,
 				53291C9B1AE5EE4400CB724F /* Products */,
+				7F3158C50DF43049EC2136D8 /* Pods */,
+				8761CF0026E44E94BE440070 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +95,15 @@
 		53291C9C1AE5EE4400CB724F /* WWDC */ = {
 			isa = PBXGroup;
 			children = (
+				53E036251AE67DF600688140 /* CustomViews */,
+				53291CC81AE5FDC600CB724F /* ViewControllers */,
 				53291C9F1AE5EE4400CB724F /* AppDelegate.swift */,
 				53291CA11AE5EE4400CB724F /* ViewController.swift */,
 				53291CA31AE5EE4400CB724F /* Main.storyboard */,
 				53291CA61AE5EE4400CB724F /* Images.xcassets */,
 				53291CA81AE5EE4400CB724F /* LaunchScreen.xib */,
 				53291C9D1AE5EE4400CB724F /* Supporting Files */,
+				53291CBF1AE5FC9100CB724F /* WWDC-Bridging-Header.h */,
 			);
 			path = WWDC;
 			sourceTree = "<group>";
@@ -112,6 +133,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		53291CC81AE5FDC600CB724F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				53291CC91AE5FDD600CB724F /* RootViewController.swift */,
+				53E0361D1AE677E100688140 /* LeftMenuViewController.swift */,
+				53E0361F1AE677EF00688140 /* RightMenuViewController.swift */,
+				53E036211AE67BC900688140 /* PerfilViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		53E036251AE67DF600688140 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				53E036231AE67DF100688140 /* CustomNavigationBar.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		7F3158C50DF43049EC2136D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30BD62665FB13B107E991C55 /* Pods-WWDC.debug.xcconfig */,
+				131EE1F8AE8882C3B916EFDC /* Pods-WWDC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8761CF0026E44E94BE440070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53291CB91AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "WWDC" */;
 			buildPhases = (
+				C9A3B64D9B4CBDFAB50CFC3F /* Check Pods Manifest.lock */,
 				53291C961AE5EE4400CB724F /* Sources */,
 				53291C971AE5EE4400CB724F /* Frameworks */,
 				53291C981AE5EE4400CB724F /* Resources */,
+				3F2B79FB39A93E1A83479E51 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +266,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F2B79FB39A93E1A83479E51 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDC/Pods-WWDC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A3B64D9B4CBDFAB50CFC3F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53291C961AE5EE4400CB724F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E036221AE67BC900688140 /* PerfilViewController.swift in Sources */,
 				53291CA21AE5EE4400CB724F /* ViewController.swift in Sources */,
 				53291CA01AE5EE4400CB724F /* AppDelegate.swift in Sources */,
+				53E0361E1AE677E100688140 /* LeftMenuViewController.swift in Sources */,
+				53291CCA1AE5FDD600CB724F /* RootViewController.swift in Sources */,
+				53E036201AE677EF00688140 /* RightMenuViewController.swift in Sources */,
+				53E036241AE67DF100688140 /* CustomNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +437,30 @@
 		};
 		53291CBA1AE5EE4400CB724F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BD62665FB13B107E991C55 /* Pods-WWDC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WWDC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WWDC/WWDC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		53291CBB1AE5EE4400CB724F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131EE1F8AE8882C3B916EFDC /* Pods-WWDC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WWDC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WWDC/WWDC-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +517,7 @@
 				53291CBB1AE5EE4400CB724F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53291CBC1AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "WWDCTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +526,7 @@
 				53291CBE1AE5EE4400CB724F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
