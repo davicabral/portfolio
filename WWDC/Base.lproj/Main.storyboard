@@ -404,12 +404,35 @@
                                     <action selector="tapMenu:" destination="0oC-KN-cy0" eventType="touchUpInside" id="DwW-mT-htc"/>
                                 </connections>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tD-xf-Po8">
+                                <rect key="frame" x="35" y="57" width="250" height="250"/>
+                                <connections>
+                                    <outlet property="delegate" destination="0oC-KN-cy0" id="da9-cC-cIY"/>
+                                </connections>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="2OK-pO-ikM">
+                                <rect key="frame" x="141" y="296" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" red="1" green="0.20392156859999999" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.54245158569999996" green="0.86821463040000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a6x-X7-jXV">
+                                <rect key="frame" x="16" y="354" width="288" height="180"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="mPageController" destination="2OK-pO-ikM" id="cox-G0-7Em"/>
+                        <outlet property="mScrollView" destination="5tD-xf-Po8" id="nuY-9Y-cN4"/>
+                        <outlet property="mTextView" destination="a6x-X7-jXV" id="drQ-TX-Zao"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vJE-Ne-kCX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
