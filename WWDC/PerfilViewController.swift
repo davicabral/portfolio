@@ -22,7 +22,7 @@ class PerfilViewController: ViewController {
         profileImage.layer.masksToBounds = true
         profileImage.layer.borderWidth = 1
         profileImage.layer.borderColor = UIColor.blackColor().CGColor
-        profileImage.layer.cornerRadius = 64
+        profileImage.layer.cornerRadius = 90
     }
     
     @IBAction func tapMenu(sender: AnyObject) {
