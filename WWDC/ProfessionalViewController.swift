@@ -17,13 +17,26 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
     
     var imageArray = [UIImage]()
     var descriptionArray = [String]()
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
         
-        imageArray = getTextureArrayFromAssets(baseName: "project", numberOfTextures: 2)
+        imageArray = getTextureArrayFromAssets(baseName: "project", numberOfTextures: 5)
+        
+        let bepidDescription = "iOS Developement"
+        let hotPocketDescription = "Blaaaaa"
+        let codiJrDescription = "empresa jr"
+        let boardDescription = "board discovery"
+        let heartWarsDescription = "Heart Wars"
+        
+        descriptionArray.append(bepidDescription)
+        descriptionArray.append(hotPocketDescription)
+        descriptionArray.append(codiJrDescription)
+        descriptionArray.append(boardDescription)
+        descriptionArray.append(heartWarsDescription)
+
         
         for var i = 0; i < imageArray.count; i++
         {
@@ -38,6 +51,8 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
             mScrollView.addSubview(image)
             
         }
+        
+        mTextView.text = bepidDescription
         
         mPageController.numberOfPages = imageArray.count
         mScrollView.contentSize = CGSize(width: mScrollView.frame.size.width * CGFloat(imageArray.count), height: mScrollView.frame.size.height)
@@ -56,6 +71,7 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
         let pageWidth = mScrollView.frame.size.width;
         let page = floor((mScrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
         mPageController.currentPage = Int(page);
+        mTextView.text = descriptionArray[Int(page)]
     }
     
     //MARK: Images Method
