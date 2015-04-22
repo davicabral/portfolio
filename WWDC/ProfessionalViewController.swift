@@ -53,10 +53,11 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
             let image = UIImageView(frame: rect)
             image.image = imageArray[i]
             mScrollView.addSubview(image)
-            
         }
         
-        mTextView.text = bepidDescription
+        mTextView.layer.masksToBounds = true
+        mTextView.layer.cornerRadius = 25
+        mTextView.text = descriptionArray[0]
         
         mPageController.numberOfPages = imageArray.count
         mScrollView.contentSize = CGSize(width: mScrollView.frame.size.width * CGFloat(imageArray.count), height: mScrollView.frame.size.height)
