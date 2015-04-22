@@ -25,11 +25,15 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
         
         imageArray = getTextureArrayFromAssets(baseName: "project", numberOfTextures: 5)
         
-        let bepidDescription = "iOS Developement"
-        let hotPocketDescription = "Blaaaaa"
-        let codiJrDescription = "empresa jr"
-        let boardDescription = "board discovery"
-        let heartWarsDescription = "Heart Wars"
+        let bepidDescription = "I participate in the BEPiD at Fortaleza’s site since September 2014. I developed apps using several frameworks like Health and sprite kit. I have learned a lot of things, but not only technical skills, also have learned about project management, communication skills and teamwork."
+        
+        let hotPocketDescription = "Hot Pocket is a group of mobile game development that uses unity 3D as a game engine. The team is focused at the creation of casual games."
+
+        let codiJrDescription = "I am the president and founder of Container Digital Junior that is a junior enterprise of my course, System and Digital Medias, at Federal University of Ceará. It has focus at development of apps, mobile and analogic games."
+        
+        let boardDescription = "It was the product of my first challenge at BEPiD. Being in process of review at TestFlight. Board Discovery consist in an app to locate new indies boardgames. More details can be checked in following link. http://goo.gl/MTsKhi "
+       
+        let heartWarsDescription = "This app was the product created at the second mini challenge. It is waiting for review at TestFlight. Heart Wars is a pervasive game that uses player’s heart rate through a cardiac sensor as a mechanism of interaction between user and game. "
         
         descriptionArray.append(bepidDescription)
         descriptionArray.append(hotPocketDescription)
