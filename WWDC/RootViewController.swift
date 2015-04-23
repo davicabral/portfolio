@@ -16,6 +16,7 @@ class RootViewController: RESideMenu {
 //        self.contentViewController = UIViewController()
         self.contentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("contentViewController") as! UIViewController
         self.leftMenuViewController = self.storyboard?.instantiateViewControllerWithIdentifier("leftMenuViewController") as! UIViewController
+        parallaxEnabled = false
     }
     override func viewDidLoad() {
         super.viewDidLoad()

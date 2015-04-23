@@ -51,6 +51,9 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
             rect.size = self.mScrollView.frame.size
             
             let image = UIImageView(frame: rect)
+            image.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.6)
+            image.layer.masksToBounds = true
+            image.layer.cornerRadius = 25
             image.image = imageArray[i]
             mScrollView.addSubview(image)
         }
@@ -76,7 +79,12 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
         let pageWidth = mScrollView.frame.size.width;
         let page = floor((mScrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
         mPageController.currentPage = Int(page);
-        mTextView.text = descriptionArray[Int(page)]
+        let pageInt: Int = Int(page)
+        
+        if pageInt > 0 && pageInt < mPageController.numberOfPages
+        {   
+            mTextView.text = descriptionArray[Int(page)]
+        }
     }
     
     //MARK: Images Method
