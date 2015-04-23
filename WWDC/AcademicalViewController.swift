@@ -14,4 +14,5 @@ class AcademicalViewController: ViewController {
         self.sideMenuViewController.presentLeftMenuViewController()
     }
 
+
 }

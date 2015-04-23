@@ -14,13 +14,13 @@
 		53291CAA1AE5EE4400CB724F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53291CA81AE5EE4400CB724F /* LaunchScreen.xib */; };
 		53291CB61AE5EE4400CB724F /* WWDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53291CB51AE5EE4400CB724F /* WWDCTests.swift */; };
 		53291CCA1AE5FDD600CB724F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53291CC91AE5FDD600CB724F /* RootViewController.swift */; };
+		53463D5F1AE984000065A2E8 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53463D5E1AE984000065A2E8 /* SkillsViewController.swift */; };
 		53E0361E1AE677E100688140 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0361D1AE677E100688140 /* LeftMenuViewController.swift */; };
 		53E036201AE677EF00688140 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0361F1AE677EF00688140 /* RightMenuViewController.swift */; };
 		53E036221AE67BC900688140 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036211AE67BC900688140 /* PerfilViewController.swift */; };
 		53E036241AE67DF100688140 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036231AE67DF100688140 /* CustomNavigationBar.swift */; };
 		53E036271AE6AC0500688140 /* AcademicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036261AE6AC0500688140 /* AcademicalViewController.swift */; };
 		53E036291AE6AC3D00688140 /* ProfessionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036281AE6AC3D00688140 /* ProfessionalViewController.swift */; };
-		53E0362C1AE6AC6100688140 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0362A1AE6AC6100688140 /* SkillsViewController.swift */; };
 		53E0362F1AE6AC9100688140 /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0362E1AE6AC9100688140 /* InterestViewController.swift */; };
 		739AA8864F4BECF994346793 /* libPods-WWDC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */; };
 /* End PBXBuildFile section */
@@ -50,13 +50,13 @@
 		53291CB51AE5EE4400CB724F /* WWDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCTests.swift; sourceTree = "<group>"; };
 		53291CBF1AE5FC9100CB724F /* WWDC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWDC-Bridging-Header.h"; sourceTree = "<group>"; };
 		53291CC91AE5FDD600CB724F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		53463D5E1AE984000065A2E8 /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 		53E0361D1AE677E100688140 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
 		53E0361F1AE677EF00688140 /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
 		53E036211AE67BC900688140 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		53E036231AE67DF100688140 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		53E036261AE6AC0500688140 /* AcademicalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicalViewController.swift; sourceTree = "<group>"; };
 		53E036281AE6AC3D00688140 /* ProfessionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessionalViewController.swift; sourceTree = "<group>"; };
-		53E0362A1AE6AC6100688140 /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 		53E0362E1AE6AC9100688140 /* InterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
 		8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWDC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -150,8 +150,8 @@
 				53E036211AE67BC900688140 /* PerfilViewController.swift */,
 				53E036261AE6AC0500688140 /* AcademicalViewController.swift */,
 				53E036281AE6AC3D00688140 /* ProfessionalViewController.swift */,
-				53E0362A1AE6AC6100688140 /* SkillsViewController.swift */,
 				53E0362E1AE6AC9100688140 /* InterestViewController.swift */,
+				53463D5E1AE984000065A2E8 /* SkillsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -316,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53463D5F1AE984000065A2E8 /* SkillsViewController.swift in Sources */,
 				53E036221AE67BC900688140 /* PerfilViewController.swift in Sources */,
 				53291CA21AE5EE4400CB724F /* ViewController.swift in Sources */,
 				53291CA01AE5EE4400CB724F /* AppDelegate.swift in Sources */,
@@ -325,7 +326,6 @@
 				53E0362F1AE6AC9100688140 /* InterestViewController.swift in Sources */,
 				53E036291AE6AC3D00688140 /* ProfessionalViewController.swift in Sources */,
 				53E036201AE677EF00688140 /* RightMenuViewController.swift in Sources */,
-				53E0362C1AE6AC6100688140 /* SkillsViewController.swift in Sources */,
 				53E036241AE67DF100688140 /* CustomNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WWDC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WWDC/WWDC-Bridging-Header.h";
@@ -474,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WWDC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WWDC/WWDC-Bridging-Header.h";
