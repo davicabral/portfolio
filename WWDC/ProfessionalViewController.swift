@@ -81,7 +81,7 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
         mPageController.currentPage = Int(page);
         let pageInt: Int = Int(page)
         
-        if pageInt > 0 && pageInt < mPageController.numberOfPages
+        if pageInt >= 0 && pageInt < mPageController.numberOfPages
         {   
             mTextView.text = descriptionArray[Int(page)]
         }
