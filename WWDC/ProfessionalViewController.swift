@@ -55,6 +55,7 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
             image.layer.masksToBounds = true
             image.layer.cornerRadius = 25
             image.image = imageArray[i]
+            image.contentMode = UIViewContentMode.Redraw
             mScrollView.addSubview(image)
         }
         

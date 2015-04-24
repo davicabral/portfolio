@@ -17,9 +17,11 @@ class SkillsViewController: UIViewController {
         super.viewDidLoad()
         tecBar.backgroundColor = UIColor.clearColor()
         tecBar.xLabels = ["Swift","ObjC","Java","Unity3D"]
+        tecBar.yLabels = [1,4,7,10]
         tecBar.yLabelFormatter = ({(yValue: CGFloat) -> String! in
             return ""
         })
+
         tecBar.yValues = [3,3.4,2.5,4]
         tecBar.strokeColor = UIColor(red:0.09, green:0.7, blue:0.55, alpha:1)
         tecBar.barRadius = 15
@@ -35,6 +37,8 @@ class SkillsViewController: UIViewController {
         projBar.strokeColor = UIColor(red:0.6, green:0.3, blue:0.55, alpha:1)
         projBar.barRadius = 15
         projBar.labelTextColor = UIColor.blackColor()
+//        let mask = UIImageView(image: UIImage(named: "Copo"))
+//        projBar.maskView = mask
         
         
         

@@ -12,6 +12,11 @@ class PerfilViewController: ViewController {
 
     @IBOutlet weak var menuButton: UIButton!
     @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var brazilFlag: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var yearLabel: UILabel!
+    @IBOutlet weak var regionLabel: UILabel!
+    @IBOutlet weak var universityLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,10 +25,16 @@ class PerfilViewController: ViewController {
         self.navigationController?.navigationBarHidden = true
 
         profileImage.layer.masksToBounds = true
-        profileImage.layer.borderWidth = 1
-        profileImage.layer.borderColor = UIColor.blackColor().CGColor
-        profileImage.layer.cornerRadius = 75
+//        profileImage.layer.borderWidth = 1
+//        profileImage.layer.borderColor = UIColor.blackColor().CGColor
+//        profileImage.layer.cornerRadius = profileImage.frame.size.width/2
+        
+//        let borderSize = NSLayoutConstraint
+        
+        println(profileImage.frame.size.width/2)
+        
     }
+    
     
     @IBAction func tapMenu(sender: AnyObject) {
         self.sideMenuViewController.presentLeftMenuViewController()

@@ -38,14 +38,14 @@
 /* Begin PBXFileReference section */
 		131EE1F8AE8882C3B916EFDC /* Pods-WWDC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.release.xcconfig"; sourceTree = "<group>"; };
 		30BD62665FB13B107E991C55 /* Pods-WWDC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.debug.xcconfig"; sourceTree = "<group>"; };
-		53291C9A1AE5EE4400CB724F /* WWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53291C9A1AE5EE4400CB724F /* Davi Oliveira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Davi Oliveira.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53291C9E1AE5EE4400CB724F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53291C9F1AE5EE4400CB724F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53291CA11AE5EE4400CB724F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53291CA41AE5EE4400CB724F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53291CA61AE5EE4400CB724F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53291CA91AE5EE4400CB724F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		53291CAF1AE5EE4400CB724F /* WWDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53291CAF1AE5EE4400CB724F /* Davi OliveiraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davi OliveiraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53291CB41AE5EE4400CB724F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53291CB51AE5EE4400CB724F /* WWDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCTests.swift; sourceTree = "<group>"; };
 		53291CBF1AE5FC9100CB724F /* WWDC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWDC-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 		53291C9B1AE5EE4400CB724F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53291C9A1AE5EE4400CB724F /* WWDC.app */,
-				53291CAF1AE5EE4400CB724F /* WWDCTests.xctest */,
+				53291C9A1AE5EE4400CB724F /* Davi Oliveira.app */,
+				53291CAF1AE5EE4400CB724F /* Davi OliveiraTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53291C991AE5EE4400CB724F /* WWDC */ = {
+		53291C991AE5EE4400CB724F /* Davi Oliveira */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53291CB91AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "WWDC" */;
+			buildConfigurationList = 53291CB91AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "Davi Oliveira" */;
 			buildPhases = (
 				C9A3B64D9B4CBDFAB50CFC3F /* Check Pods Manifest.lock */,
 				53291C961AE5EE4400CB724F /* Sources */,
@@ -198,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = WWDC;
+			name = "Davi Oliveira";
 			productName = WWDC;
-			productReference = 53291C9A1AE5EE4400CB724F /* WWDC.app */;
+			productReference = 53291C9A1AE5EE4400CB724F /* Davi Oliveira.app */;
 			productType = "com.apple.product-type.application";
 		};
-		53291CAE1AE5EE4400CB724F /* WWDCTests */ = {
+		53291CAE1AE5EE4400CB724F /* Davi OliveiraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53291CBC1AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "WWDCTests" */;
+			buildConfigurationList = 53291CBC1AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "Davi OliveiraTests" */;
 			buildPhases = (
 				53291CAB1AE5EE4400CB724F /* Sources */,
 				53291CAC1AE5EE4400CB724F /* Frameworks */,
@@ -216,9 +216,9 @@
 			dependencies = (
 				53291CB11AE5EE4400CB724F /* PBXTargetDependency */,
 			);
-			name = WWDCTests;
+			name = "Davi OliveiraTests";
 			productName = WWDCTests;
-			productReference = 53291CAF1AE5EE4400CB724F /* WWDCTests.xctest */;
+			productReference = 53291CAF1AE5EE4400CB724F /* Davi OliveiraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 53291C951AE5EE4400CB724F /* Build configuration list for PBXProject "WWDC" */;
+			buildConfigurationList = 53291C951AE5EE4400CB724F /* Build configuration list for PBXProject "Davi Oliveira" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -252,8 +252,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53291C991AE5EE4400CB724F /* WWDC */,
-				53291CAE1AE5EE4400CB724F /* WWDCTests */,
+				53291C991AE5EE4400CB724F /* Davi Oliveira */,
+				53291CAE1AE5EE4400CB724F /* Davi OliveiraTests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* Begin PBXTargetDependency section */
 		53291CB11AE5EE4400CB724F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53291C991AE5EE4400CB724F /* WWDC */;
+			target = 53291C991AE5EE4400CB724F /* Davi Oliveira */;
 			targetProxy = 53291CB01AE5EE4400CB724F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,9 +458,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WWDC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Davi Oliveira";
 				SWIFT_OBJC_BRIDGING_HEADER = "WWDC/WWDC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -474,9 +474,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WWDC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Davi Oliveira";
 				SWIFT_OBJC_BRIDGING_HEADER = "WWDC/WWDC-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -496,7 +496,7 @@
 				);
 				INFOPLIST_FILE = WWDCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Davi OliveiraTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC.app/WWDC";
 			};
 			name = Debug;
@@ -511,7 +511,7 @@
 				);
 				INFOPLIST_FILE = WWDCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Davi OliveiraTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC.app/WWDC";
 			};
 			name = Release;
@@ -519,7 +519,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53291C951AE5EE4400CB724F /* Build configuration list for PBXProject "WWDC" */ = {
+		53291C951AE5EE4400CB724F /* Build configuration list for PBXProject "Davi Oliveira" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53291CB71AE5EE4400CB724F /* Debug */,
@@ -528,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53291CB91AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "WWDC" */ = {
+		53291CB91AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "Davi Oliveira" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53291CBA1AE5EE4400CB724F /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53291CBC1AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "WWDCTests" */ = {
+		53291CBC1AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "Davi OliveiraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53291CBD1AE5EE4400CB724F /* Debug */,

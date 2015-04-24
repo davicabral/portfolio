@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53291C991AE5EE4400CB724F"
-               BuildableName = "WWDC.app"
-               BlueprintName = "WWDC"
-               ReferencedContainer = "container:WWDC.xcodeproj">
+               BuildableName = "Davi Oliveira.app"
+               BlueprintName = "Davi Oliveira"
+               ReferencedContainer = "container:Davi Oliveira.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53291CAE1AE5EE4400CB724F"
-               BuildableName = "WWDCTests.xctest"
-               BlueprintName = "WWDCTests"
-               ReferencedContainer = "container:WWDC.xcodeproj">
+               BuildableName = "Davi OliveiraTests.xctest"
+               BlueprintName = "Davi OliveiraTests"
+               ReferencedContainer = "container:Davi Oliveira.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53291CAE1AE5EE4400CB724F"
-               BuildableName = "WWDCTests.xctest"
-               BlueprintName = "WWDCTests"
-               ReferencedContainer = "container:WWDC.xcodeproj">
+               BuildableName = "Davi OliveiraTests.xctest"
+               BlueprintName = "Davi OliveiraTests"
+               ReferencedContainer = "container:Davi Oliveira.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53291C991AE5EE4400CB724F"
-            BuildableName = "WWDC.app"
-            BlueprintName = "WWDC"
-            ReferencedContainer = "container:WWDC.xcodeproj">
+            BuildableName = "Davi Oliveira.app"
+            BlueprintName = "Davi Oliveira"
+            ReferencedContainer = "container:Davi Oliveira.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53291C991AE5EE4400CB724F"
-            BuildableName = "WWDC.app"
-            BlueprintName = "WWDC"
-            ReferencedContainer = "container:WWDC.xcodeproj">
+            BuildableName = "Davi Oliveira.app"
+            BlueprintName = "Davi Oliveira"
+            ReferencedContainer = "container:Davi Oliveira.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53291C991AE5EE4400CB724F"
-            BuildableName = "WWDC.app"
-            BlueprintName = "WWDC"
-            ReferencedContainer = "container:WWDC.xcodeproj">
+            BuildableName = "Davi Oliveira.app"
+            BlueprintName = "Davi Oliveira"
+            ReferencedContainer = "container:Davi Oliveira.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
