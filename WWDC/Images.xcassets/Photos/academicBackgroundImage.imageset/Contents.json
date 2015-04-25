@@ -3,11 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "book2.jpg"
+      "filename" : "academic1x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "academic2x.png"
     },
     {
       "idiom" : "universal",

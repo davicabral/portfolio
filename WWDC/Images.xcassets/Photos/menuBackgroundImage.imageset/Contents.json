@@ -3,11 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "cidade2.jpg"
+      "filename" : "menu1x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "menu2x.png"
     },
     {
       "idiom" : "universal",
