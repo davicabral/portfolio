@@ -23,16 +23,33 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         // Do view setup here.
         
+
+    }
+    
+    override func viewDidLayoutSubviews() {
+    
+        if imageArray.count == 0{
+            buildInfo()
+        }
+    }
+    
+    @IBAction func tapMenu(sender: AnyObject) {
+        self.sideMenuViewController.presentLeftMenuViewController()
+    }
+
+    // MARK: - 
+    
+    func buildInfo(){
         imageArray = getTextureArrayFromAssets(baseName: "project", numberOfTextures: 5)
         
         let bepidDescription = "I participate in the BEPiD at Fortaleza’s site since September 2014. I developed apps using several frameworks like Health and sprite kit. I have learned a lot of things, but not only technical skills, also have learned about project management, communication skills and teamwork."
         
         let hotPocketDescription = "Hot Pocket is a group of mobile game development that uses unity 3D as a game engine. The team is focused at the creation of casual games."
-
+        
         let codiJrDescription = "I am the president and founder of Container Digital Junior that is a junior enterprise of my course, System and Digital Medias, at Federal University of Ceará. It has focus at development of apps, mobile and analogic games."
         
         let boardDescription = "It was the product of my first challenge at BEPiD. Being in process of review at TestFlight. Board Discovery consist in an app to locate new indies boardgames. More details can be checked in following link. http://goo.gl/MTsKhi "
-       
+        
         let heartWarsDescription = "This app was the product created at the second mini challenge. It is waiting for review at TestFlight. Heart Wars is a pervasive game that uses player’s heart rate through a cardiac sensor as a mechanism of interaction between user and game. "
         
         descriptionArray.append(bepidDescription)
@@ -40,12 +57,12 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
         descriptionArray.append(codiJrDescription)
         descriptionArray.append(boardDescription)
         descriptionArray.append(heartWarsDescription)
-
+        
         
         for var i = 0; i < imageArray.count; i++
         {
             var rect = CGRect()
-            rect.size = CGSize(width: 250, height: 250)
+            rect.size = mScrollView.frame.size
             rect.origin.x = mScrollView.frame.size.width * CGFloat(i)
             rect.origin.y = 0
             rect.size = self.mScrollView.frame.size
@@ -55,7 +72,7 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
             image.layer.masksToBounds = true
             image.layer.cornerRadius = 25
             image.image = imageArray[i]
-            image.contentMode = UIViewContentMode.Redraw
+            image.contentMode = UIViewContentMode.ScaleAspectFit
             mScrollView.addSubview(image)
         }
         
@@ -65,12 +82,7 @@ class ProfessionalViewController: ViewController, UIScrollViewDelegate {
         
         mPageController.numberOfPages = imageArray.count
         mScrollView.contentSize = CGSize(width: mScrollView.frame.size.width * CGFloat(imageArray.count), height: mScrollView.frame.size.height)
-            //CGSizeMake(self.scrollView.frame.size.width * colors.count, self.scrollView.frame.size.height);
-
-    }
-    
-    @IBAction func tapMenu(sender: AnyObject) {
-        self.sideMenuViewController.presentLeftMenuViewController()
+        //CGSizeMake(self.scrollView.frame.size.width * colors.count, self.scrollView.frame.size.height);
     }
     
     

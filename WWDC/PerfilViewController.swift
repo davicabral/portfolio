@@ -27,7 +27,7 @@ class PerfilViewController: ViewController {
         profileImage.layer.masksToBounds = true
 //        profileImage.layer.borderWidth = 1
 //        profileImage.layer.borderColor = UIColor.blackColor().CGColor
-//        profileImage.layer.cornerRadius = profileImage.frame.size.width/2
+        profileImage.layer.cornerRadius = profileImage.frame.size.width/2
         
 //        let borderSize = NSLayoutConstraint
         

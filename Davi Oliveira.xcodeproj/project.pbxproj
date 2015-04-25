@@ -12,7 +12,6 @@
 		53291CA51AE5EE4400CB724F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53291CA31AE5EE4400CB724F /* Main.storyboard */; };
 		53291CA71AE5EE4400CB724F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53291CA61AE5EE4400CB724F /* Images.xcassets */; };
 		53291CAA1AE5EE4400CB724F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53291CA81AE5EE4400CB724F /* LaunchScreen.xib */; };
-		53291CB61AE5EE4400CB724F /* WWDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53291CB51AE5EE4400CB724F /* WWDCTests.swift */; };
 		53291CCA1AE5FDD600CB724F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53291CC91AE5FDD600CB724F /* RootViewController.swift */; };
 		53463D5F1AE984000065A2E8 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53463D5E1AE984000065A2E8 /* SkillsViewController.swift */; };
 		53E0361E1AE677E100688140 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0361D1AE677E100688140 /* LeftMenuViewController.swift */; };
@@ -22,21 +21,12 @@
 		53E036271AE6AC0500688140 /* AcademicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036261AE6AC0500688140 /* AcademicalViewController.swift */; };
 		53E036291AE6AC3D00688140 /* ProfessionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E036281AE6AC3D00688140 /* ProfessionalViewController.swift */; };
 		53E0362F1AE6AC9100688140 /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0362E1AE6AC9100688140 /* InterestViewController.swift */; };
-		739AA8864F4BECF994346793 /* libPods-WWDC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */; };
+		AD614C7DE48FF1D32A6888C8 /* libPods-Davi Oliveira.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDF1F6305E663D0E6EED647 /* libPods-Davi Oliveira.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		53291CB01AE5EE4400CB724F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 53291C921AE5EE4400CB724F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53291C991AE5EE4400CB724F;
-			remoteInfo = WWDC;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		131EE1F8AE8882C3B916EFDC /* Pods-WWDC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.release.xcconfig"; sourceTree = "<group>"; };
+		2BDF1F6305E663D0E6EED647 /* libPods-Davi Oliveira.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Davi Oliveira.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BD62665FB13B107E991C55 /* Pods-WWDC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDC/Pods-WWDC.debug.xcconfig"; sourceTree = "<group>"; };
 		53291C9A1AE5EE4400CB724F /* Davi Oliveira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Davi Oliveira.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53291C9E1AE5EE4400CB724F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +35,6 @@
 		53291CA41AE5EE4400CB724F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53291CA61AE5EE4400CB724F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53291CA91AE5EE4400CB724F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		53291CAF1AE5EE4400CB724F /* Davi OliveiraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davi OliveiraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53291CB41AE5EE4400CB724F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53291CB51AE5EE4400CB724F /* WWDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCTests.swift; sourceTree = "<group>"; };
 		53291CBF1AE5FC9100CB724F /* WWDC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWDC-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -58,6 +47,8 @@
 		53E036261AE6AC0500688140 /* AcademicalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicalViewController.swift; sourceTree = "<group>"; };
 		53E036281AE6AC3D00688140 /* ProfessionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessionalViewController.swift; sourceTree = "<group>"; };
 		53E0362E1AE6AC9100688140 /* InterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
+		657E1912AB27C6B68FADB698 /* Pods-Davi Oliveira.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Davi Oliveira.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Davi Oliveira/Pods-Davi Oliveira.debug.xcconfig"; sourceTree = "<group>"; };
+		8B8E3D99F6E75D876F297D49 /* Pods-Davi Oliveira.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Davi Oliveira.release.xcconfig"; path = "Pods/Target Support Files/Pods-Davi Oliveira/Pods-Davi Oliveira.release.xcconfig"; sourceTree = "<group>"; };
 		8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWDC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,14 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				739AA8864F4BECF994346793 /* libPods-WWDC.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53291CAC1AE5EE4400CB724F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AD614C7DE48FF1D32A6888C8 /* libPods-Davi Oliveira.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				53291C9A1AE5EE4400CB724F /* Davi Oliveira.app */,
-				53291CAF1AE5EE4400CB724F /* Davi OliveiraTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +152,8 @@
 			children = (
 				30BD62665FB13B107E991C55 /* Pods-WWDC.debug.xcconfig */,
 				131EE1F8AE8882C3B916EFDC /* Pods-WWDC.release.xcconfig */,
+				657E1912AB27C6B68FADB698 /* Pods-Davi Oliveira.debug.xcconfig */,
+				8B8E3D99F6E75D876F297D49 /* Pods-Davi Oliveira.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -177,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				8DB74AFB0C7FB9138F252A7A /* libPods-WWDC.a */,
+				2BDF1F6305E663D0E6EED647 /* libPods-Davi Oliveira.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,24 +189,6 @@
 			productReference = 53291C9A1AE5EE4400CB724F /* Davi Oliveira.app */;
 			productType = "com.apple.product-type.application";
 		};
-		53291CAE1AE5EE4400CB724F /* Davi OliveiraTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 53291CBC1AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "Davi OliveiraTests" */;
-			buildPhases = (
-				53291CAB1AE5EE4400CB724F /* Sources */,
-				53291CAC1AE5EE4400CB724F /* Frameworks */,
-				53291CAD1AE5EE4400CB724F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				53291CB11AE5EE4400CB724F /* PBXTargetDependency */,
-			);
-			name = "Davi OliveiraTests";
-			productName = WWDCTests;
-			productReference = 53291CAF1AE5EE4400CB724F /* Davi OliveiraTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,10 +200,6 @@
 				TargetAttributes = {
 					53291C991AE5EE4400CB724F = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					53291CAE1AE5EE4400CB724F = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 53291C991AE5EE4400CB724F;
 					};
 				};
 			};
@@ -253,7 +217,6 @@
 			projectRoot = "";
 			targets = (
 				53291C991AE5EE4400CB724F /* Davi Oliveira */,
-				53291CAE1AE5EE4400CB724F /* Davi OliveiraTests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,13 +229,6 @@
 				53291CA51AE5EE4400CB724F /* Main.storyboard in Resources */,
 				53291CAA1AE5EE4400CB724F /* LaunchScreen.xib in Resources */,
 				53291CA71AE5EE4400CB724F /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53291CAD1AE5EE4400CB724F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +247,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDC/Pods-WWDC-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Davi Oliveira/Pods-Davi Oliveira-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9A3B64D9B4CBDFAB50CFC3F /* Check Pods Manifest.lock */ = {
@@ -330,23 +286,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53291CAB1AE5EE4400CB724F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53291CB61AE5EE4400CB724F /* WWDCTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		53291CB11AE5EE4400CB724F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 53291C991AE5EE4400CB724F /* Davi Oliveira */;
-			targetProxy = 53291CB01AE5EE4400CB724F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		53291CA31AE5EE4400CB724F /* Main.storyboard */ = {
@@ -453,7 +393,7 @@
 		};
 		53291CBA1AE5EE4400CB724F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30BD62665FB13B107E991C55 /* Pods-WWDC.debug.xcconfig */;
+			baseConfigurationReference = 657E1912AB27C6B68FADB698 /* Pods-Davi Oliveira.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -469,7 +409,7 @@
 		};
 		53291CBB1AE5EE4400CB724F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 131EE1F8AE8882C3B916EFDC /* Pods-WWDC.release.xcconfig */;
+			baseConfigurationReference = 8B8E3D99F6E75D876F297D49 /* Pods-Davi Oliveira.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -479,40 +419,6 @@
 				PRODUCT_NAME = "Davi Oliveira";
 				SWIFT_OBJC_BRIDGING_HEADER = "WWDC/WWDC-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		53291CBD1AE5EE4400CB724F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WWDCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Davi OliveiraTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC.app/WWDC";
-			};
-			name = Debug;
-		};
-		53291CBE1AE5EE4400CB724F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WWDCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Davi OliveiraTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC.app/WWDC";
 			};
 			name = Release;
 		};
@@ -533,15 +439,6 @@
 			buildConfigurations = (
 				53291CBA1AE5EE4400CB724F /* Debug */,
 				53291CBB1AE5EE4400CB724F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		53291CBC1AE5EE4400CB724F /* Build configuration list for PBXNativeTarget "Davi OliveiraTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				53291CBD1AE5EE4400CB724F /* Debug */,
-				53291CBE1AE5EE4400CB724F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
