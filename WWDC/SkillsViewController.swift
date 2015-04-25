@@ -16,35 +16,57 @@ class SkillsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tecBar.backgroundColor = UIColor.clearColor()
-        tecBar.xLabels = ["Swift","ObjC","Java","Unity3D"]
+        tecBar.labelTextColor = UIColor.whiteColor()
+        tecBar.barBackgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0)
+        tecBar.xLabels = ["SWIFT","OBJ C","JAVA","UNITY 3D"]
         tecBar.yLabels = [1,4,7,10]
         tecBar.yLabelFormatter = ({(yValue: CGFloat) -> String! in
-            return ""
+            return String()
         })
-
         tecBar.yValues = [3,3.4,2.5,4]
-        tecBar.strokeColor = UIColor(red:0.09, green:0.7, blue:0.55, alpha:1)
-        tecBar.barRadius = 15
-        tecBar.labelTextColor = UIColor.blackColor()
+        tecBar.strokeColor = UIColor.whiteColor()
+        tecBar.barRadius = 10
+        tecBar.barWidth = 30
+        
+
+        
+
         
         
         projBar.backgroundColor = UIColor.clearColor()
-        projBar.xLabels = ["Design Thinking","CBL","Scrum"]
+        projBar.labelTextColor = UIColor.whiteColor()
+        projBar.barBackgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0)
+        projBar.xLabels = ["DESIGN THINKING","CBL","SCRUM"]
         projBar.yLabelFormatter = ({(yValue: CGFloat) -> String! in
             return ""
         })
         projBar.yValues = [3,3.4,3.6]
-        projBar.strokeColor = UIColor(red:0.6, green:0.3, blue:0.55, alpha:1)
-        projBar.barRadius = 15
-        projBar.labelTextColor = UIColor.blackColor()
-//        let mask = UIImageView(image: UIImage(named: "Copo"))
-//        projBar.maskView = mask
+        projBar.strokeColor = UIColor.whiteColor()
+        projBar.barRadius = 10
+        projBar.barWidth = 30
         
         
-        
+
         
         tecBar.strokeChart()
+        
+
         projBar.strokeChart()
+
+        
+        
+        let tecBars = tecBar.bars
+        let projBars = projBar.bars
+        for bar in tecBars
+        {
+            bar.layer.borderWidth = 2
+            bar.layer.borderColor = UIColor.whiteColor().CGColor
+        }
+        for bar in projBars
+        {
+            bar.layer.borderWidth = 2
+            bar.layer.borderColor = UIColor.whiteColor().CGColor
+        }
         
         // Do view setup here.
     }
